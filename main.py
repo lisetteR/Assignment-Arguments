@@ -38,3 +38,4 @@ def pull(m1: float, m2: float, d:float):
     return x
 
 print(pull(0.1, 5.972*10**24, 6.371*10**6))
+
