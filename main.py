@@ -6,6 +6,7 @@ __human_name__ = 'arguments'
 def greet(name, greeting_template= 'Hello, <name>!'):
     greeting_template = greeting_template.replace('<name>', name)
     return greeting_template
+
 print(greet('Bob'))
 print(greet('Yo', "What's up, <name>!"))
 
@@ -27,7 +28,9 @@ def force(mass: float, body:str = 'earth'):
 
     x = mass * (implementation[body])
     return x
+
 print(force(10.0, 'saturn'))
+
 
 def pull(m1: float, m2: float, d:float):
     G = 6.674*10**-11
